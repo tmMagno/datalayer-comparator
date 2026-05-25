@@ -141,3 +141,13 @@ boton.addEventListener("click", () => {
 
   mostrarResultados(resultados)
 })
+
+// btn Limpiar ----
+
+const btnLimpiar = document.getElementById("btn-limpiar")
+
+btnLimpiar.addEventListener("click", () => {
+  document.getElementById("esperado").value = ""
+  document.getElementById("recibido").value = ""
+  document.getElementById("resultado").innerHTML = ""
+})

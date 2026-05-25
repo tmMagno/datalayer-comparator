@@ -78,12 +78,7 @@ In traditional QA workflows, comparing datalayers is a manual and error-prone pr
 - [ ] v5.0 — Export report to PDF / Excel
 
 ## Project structure
-
 datalayer-comparator/
 ├── index.html   → interface structure
 ├── style.css    → visual styles
 └── app.js       → full logic (parser, flattener, comparator, results)
-
-## Live app
-
-🔗 [https://tmMagno.github.io/datalayer-comparator](https://tmMagno.github.io/datalayer-comparator)
